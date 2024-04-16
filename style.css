@@ -1,0 +1,67 @@
+html{
+    background-color:green;
+    margin:0;
+}
+body{
+    margin:0;
+}
+nav{
+    background-color: black;
+    color: lightgreen;
+    position: fixed;
+    position: relative;
+    height: 100px;
+    box-sizing: border-box;
+    right:0;
+    left:0;
+    align-items: center;
+    display:flex;
+    font-size: x-large;
+}
+#name{
+    position:fixed;
+    right:0;
+    padding:5px;
+    font-weight: bold;
+
+}
+a{
+    text-decoration: none;
+    color:lightgreen;
+    justify-content: space-between;
+    text-align: right;
+    display: flex;
+    padding: 5px;
+}
+#quote{
+    position:relative;
+    font-style: italic;
+    font-size:300%;
+    box-sizing: border-box;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: lightgreen;
+    float: left;
+    max-width: 400px;
+    height:500px;
+}
+#me{
+    float:right;
+    font-size: x-large;
+    text-decoration: underline;
+    box-sizing: border-box;
+    border: solid 5px black;
+    padding:5px;
+    color: lightgreen;
+    display: flex;
+    flex-direction: right;
+    flex-direction: column;
+}
+img{
+    float: right;
+}
+
+
+
+
